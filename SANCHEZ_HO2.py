@@ -23,12 +23,12 @@ label_2 = tk.Label(window, text="Age: 19",
     fg = "brown",
     bg = "pink")
 
-label_3 = tk.Label(window, text="Year and Section: BSIT-1A",
+label_3 = tk.Label(window, text="Course and Section: BSIT-1A",
     font = ("arial", 18),
     fg = "brown",
     bg = "pink")
 
-label_4 = tk.Label(window, text="Birtdate: November 20, 2006",
+label_4 = tk.Label(window, text="Birthday: November 20, 2006",
     font = ("arial", 18),
     fg = "brown",
     bg = "pink")
@@ -46,3 +46,4 @@ label_4.pack(padx=20, pady=6, anchor = "w")
 label_5.pack(padx=20, pady=6, anchor = "w")
 
 window.mainloop()
+
